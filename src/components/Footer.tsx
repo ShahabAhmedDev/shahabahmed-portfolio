@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -44,9 +44,7 @@ const Footer = () => {
           
           <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-sm opacity-80">
             <div className="flex items-center space-x-1">
-              <span>© {currentYear} Shahab Ahmed. Built with</span>
-              <Heart className="h-4 w-4 text-red-400" />
-              <span>using Unity expertise.</span>
+              <span>© {currentYear} Shahab Ahmed. All rights reserved.</span>
             </div>
             <div className="mt-4 md:mt-0 flex items-center space-x-6">
               <a href="#" className="hover:text-primary-glow transition-colors">
